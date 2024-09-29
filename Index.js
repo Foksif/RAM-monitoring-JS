@@ -29,7 +29,7 @@ const format = (bytes, decimals = 2, k = 1024) => {
 
 const pocent = (a, b) => {
   if (!a || !b) {
-    return "Нет данных";
+    return "No data";
   } else {
     let num = (a / b) * 100;
     return num;
